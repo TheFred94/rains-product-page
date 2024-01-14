@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'TT Norms Pro';
+  font-style: Regular;
+  src: local('TT Norms Pro'), url(./assets/fonts/TT-Norms-Pro-Regular.ttf);
+}
+@font-face {
+  font-family: 'TT Norms Pro';
+  font-style: Light;
+  src: local('TT Norms Pro'), url(./assets/fonts/TT-Norms-Pro-Light.ttf);
+}
+@font-face {
+  font-family: 'TT Norms Pro';
+  font-style: Bold;
+  src: local('TT Norms Pro'), url(./assets/fonts/TT-Norms-Pro-Bold.ttf);
+}
+@font-face {
+  font-family: 'TT Norms Pro';
+  font-style: ExtraBold;
+  src: local('TT Norms Pro'), url(./assets/fonts/TT-Norms-Pro-ExtraBold.ttf);
+}
+
+:root {
+  font-family: 'TT Norms Pro';
+  line-height: 1.5;
+  color-scheme: light dark;
+  background-color: #242424;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-family: 'TT Norms Pro';
+  color: black;
+  text-transform: uppercase;
+}
