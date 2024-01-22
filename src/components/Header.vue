@@ -1,14 +1,18 @@
 <template>
-  <nav class="flex flex-row h-14 align-middle gap-3">
+  <nav
+    class="flex flex-row h-20 align-middle gap-3 px-3 bg-transparent fixed w-full"
+  >
     <div
-      class="flex self-center rounded-3xl bg-slate-300 h-8 content-center justify-center opacity-50 px-2"
+      class="flex self-center rounded-3xl bg-slate-300/50 h-10 content-center justify-center px-4"
     >
-      <a class="self-center uppercase font-black">Rains</a>
+      <a class="self-center uppercase font-black text-lg hover:no-underline"
+        >Rains</a
+      >
     </div>
     <div
-      class="flex self-center items-center rounded-3xl bg-slate-300 h-8 content-center opacity-50 px-4 gap-3"
+      class="flex self-center items-center rounded-3xl bg-slate-300/50 h-10 content-center px-4 gap-7"
     >
-      <a class="font-regular">Nyheder</a>
+      <a>Nyheder</a>
       <a>Dame</a>
       <a>Herre</a>
       <a>Tasker</a>
@@ -16,7 +20,7 @@
       <a>Rains World</a>
     </div>
     <div
-      class="flex self-center rounded-3xl bg-slate-300 h-8 content-center justify-center opacity-50 px-2"
+      class="flex self-center rounded-3xl bg-slate-300 h-10 content-center justify-center px-2 ml-auto bg-slate-300/50 cursor-pointer"
     >
       <span class="self-center px-2"
         ><svg
@@ -32,12 +36,12 @@
           />
         </svg>
       </span>
-      <a class="self-center uppercase">Søg</a>
+      <a class="self-center uppercase pr-2 hover:no-underline">Søg</a>
     </div>
     <div
-      class="flex flex-row self-center rounded-3xl bg-slate-300 h-8 content-center justify-center opacity-50 px-2"
+      class="flex flex-row self-center rounded-3xl bg-slate-300 h-10 content-center justify-center px-2 bg-slate-300/50 cursor-pointer"
     >
-      <span
+      <span class="self-center px-2"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -55,7 +59,7 @@
           />
         </svg>
       </span>
-      <a class="self-center uppercase">Kurv</a>
+      <a class="self-center uppercase pr-2 hover:no-underline$">Kurv</a>
     </div>
   </nav>
 </template>

@@ -4,22 +4,26 @@
 
 @font-face {
   font-family: 'TT Norms Pro';
-  font-style: Regular;
+  font-style: normal;
+  font-weight: 300;
   src: local('TT Norms Pro'), url(./assets/fonts/TT-Norms-Pro-Regular.ttf);
 }
 @font-face {
   font-family: 'TT Norms Pro';
-  font-style: Light;
+  font-style: normal;
+  font-weight: 100;
   src: local('TT Norms Pro'), url(./assets/fonts/TT-Norms-Pro-Light.ttf);
 }
 @font-face {
   font-family: 'TT Norms Pro';
-  font-style: Bold;
+  font-style: normal;
+  font-weight: 700;
   src: local('TT Norms Pro'), url(./assets/fonts/TT-Norms-Pro-Bold.ttf);
 }
 @font-face {
   font-family: 'TT Norms Pro';
-  font-style: ExtraBold;
+  font-style: normal;
+  font-weight: 900;
   src: local('TT Norms Pro'), url(./assets/fonts/TT-Norms-Pro-ExtraBold.ttf);
 }
 
@@ -27,14 +31,21 @@
   font-family: 'TT Norms Pro';
   line-height: 1.5;
   color-scheme: light dark;
-  background-color: #242424;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
   font-family: 'TT Norms Pro';
+  font-weight: 700;
   color: black;
   text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  object-fit: cover;
 }
