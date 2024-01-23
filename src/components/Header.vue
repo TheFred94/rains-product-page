@@ -59,7 +59,7 @@
           />
         </svg>
       </span>
-      <a class="self-center uppercase pr-2 hover:no-underline$">Kurv</a>
+      <a class="self-center uppercase pr-2 hover:no-underline">Kurv</a>
     </div>
   </nav>
 </template>

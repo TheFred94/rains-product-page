@@ -1,7 +1,6 @@
 <template>
   <div
     class="overflow-auto whitespace-nowrap aspect-video flex flex-col flex-wrap h-[1000px] w-full"
-    ref="imageGallery"
   >
     <div
       v-for="(image, index) in images"
@@ -28,18 +27,6 @@ export default {
         { src: 'src/assets/images/image-4.jpg', alt: 'Image 4' },
       ],
     };
-  },
-  methods: {
-    handleScroll() {
-      const gallery = this.$refs.imageGallery;
-
-      if (gallery.scrollLeft + gallery.clientHeight >= gallery.scrollHeight) {
-        this.images = [...this.images, ...this.getMoreImages()];
-      }
-    },
-    getMoreImages() {
-      return this.images.map((image) => ({ ...image }));
-    },
   },
 };
 </script>
