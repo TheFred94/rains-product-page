@@ -1,16 +1,16 @@
 <template>
   <nav
-    class="flex flex-row h-20 align-middle gap-3 px-3 bg-transparent fixed w-full"
+    class="flex flex-row h-20 align-middle gap-3 px-3 bg-transparent fixed w-full z-10"
   >
     <div
-      class="flex self-center rounded-3xl bg-slate-300/50 h-10 content-center justify-center px-4"
+      class="flex self-center rounded-3xl bg-slate-300/50 h-10 content-center justify-center px-4 backdrop-blur"
     >
       <a class="self-center uppercase font-black text-lg hover:no-underline"
         >Rains</a
       >
     </div>
     <div
-      class="flex self-center items-center rounded-3xl bg-slate-300/50 h-10 content-center px-4 gap-7"
+      class="flex self-center items-center rounded-3xl bg-slate-300/50 h-10 content-center px-4 gap-7 backdrop-blur"
     >
       <a>Nyheder</a>
       <a>Dame</a>
@@ -20,7 +20,7 @@
       <a>Rains World</a>
     </div>
     <div
-      class="flex self-center rounded-3xl bg-slate-300 h-10 content-center justify-center px-2 ml-auto bg-slate-300/50 cursor-pointer"
+      class="flex self-center rounded-3xl bg-slate-300 h-10 content-center justify-center px-2 ml-auto bg-slate-300/50 cursor-pointer backdrop-blur"
     >
       <span class="self-center px-2"
         ><svg
