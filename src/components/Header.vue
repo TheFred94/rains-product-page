@@ -27,7 +27,7 @@
           xmlns="http://www.w3.org/2000/svg"
           width="16"
           height="16"
-          fill="currentColor"
+          fill="black"
           class="bi bi-search text-black"
           viewBox="0 0 16 16"
         >
@@ -38,15 +38,17 @@
       </span>
       <a class="self-center uppercase pr-2 hover:no-underline">Søg</a>
     </div>
+    <!--    Search element-->
+    <!--    TODO Create overlay when clicking search element-->
     <div
-      class="flex flex-row self-center rounded-3xl bg-slate-300 h-10 content-center justify-center px-2 bg-slate-300/50 cursor-pointer"
+      class="flex flex-row self-center rounded-3xl bg-slate-300 h-10 content-center justify-center px-2 bg-slate-300/50 cursor-pointer backdrop-blur"
     >
       <span class="self-center px-2"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
           height="16"
-          fill="currentColor"
+          fill="black"
           class="bi bi-bag-check"
           viewBox="0 0 16 16"
         >

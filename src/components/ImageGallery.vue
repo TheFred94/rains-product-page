@@ -3,8 +3,6 @@
     class="overflow-auto whitespace-nowrap aspect-video flex flex-col flex-wrap h-[1000px] w-full keen-slider"
     ref="container"
   >
-    <!--TODO Make image containers landscape rather than portrait-->
-    <!--    TODO Have the slider run automatically on desktop-->
     <div
       class="keen-slider__slide"
       v-for="(image, index) in images"
@@ -12,6 +10,7 @@
     >
       <img class="h-full w-full" :src="image.src" :alt="image.alt" />
     </div>
+    <!--TODO Insert navigational arrows-->
   </div>
 </template>
 <script>
